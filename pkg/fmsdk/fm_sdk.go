@@ -2,9 +2,10 @@ package fmsdk
 
 /*
 #cgo !dev LDFLAGS: -lnvfm
+#include <stdlib.h>
 #include "nv_fm_agent.h"
+#include "nv_fm_types.h"
 */
-
 import "C"
 import (
 	"fmt"
